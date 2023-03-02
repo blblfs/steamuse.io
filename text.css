@@ -1,0 +1,40 @@
+html,body{
+	margin: 0px;
+	width:100%;
+	height:100%;
+}
+#title
+{
+  text-align:center;
+  }
+#gettop
+{
+  position: fixed;
+            right: 20px;
+            bottom: 20px;
+  }
+img
+{
+  text-align:center;
+  }
+img:hover
+{
+  border:2px solid blue;
+  }
+ol
+{
+  border:1px dashed grey;
+  }
+#contents
+{
+  background-color:#f0f0f4;
+  }
+.redtext
+{
+  color:red；
+  }
+img:not(:nth-child(1))
+{
+  height:100%;
+  width:100%;
+  }
